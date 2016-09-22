@@ -12,7 +12,7 @@ Wrapper class for NSRegularExpression in Swift 3.0 which makes life easier.
 #### Example
 ```
 let result = Regex(regex: "(\\D+)\\s(\\D+)", string: "Mom's Spaghetti")
-let matched = a.getMatchResult() // matched strings
+let matched = a.getMatchedResults() // matched strings
 let captured = a.getCapturedGroups() // grouped strings
 
 if let result = matched
