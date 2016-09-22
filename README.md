@@ -10,7 +10,7 @@ Wrapper class for NSRegularExpression in Swift 3.0 which makes life easier.
 ``getCapturedGroups()`` returns an optional ``String`` array of catured groups
 
 #### Example
-```
+```Swift
 let result = Regex(regex: "(\\D+)\\s(\\D+)", string: "Mom's Spaghetti")
 let matched = a.getMatchedResults() // matched strings
 let captured = a.getCapturedGroups() // grouped strings
