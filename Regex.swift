@@ -40,7 +40,7 @@ class Regex
         }
     }
     
-    func getMatchResult() -> [String]?
+    func getMatchedResults() -> [String]?
     {
         if matches.count > 0
         {
