@@ -1,6 +1,7 @@
 # Regex
-Wrapper class for NSRegularExpression in Swift 3.0 which makes life easier.
+Wrapper class for NSRegularExpression in Swift which makes life easier.
 
+[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg)]() [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000?style=plastic)]()
 
 ### Usage
 ``Regex(regex:string:)``  First argument takes regular expreesion and second argument takes a string to be checked.
